@@ -1,0 +1,21 @@
+---
+const nav = [
+  { label: 'Services', href: '#services' },
+  { label: 'Approach', href: '#approach' },
+  { label: 'Work', href: '#work' },
+];
+const home = import.meta.env.BASE_URL;
+---
+
+<header class="absolute inset-x-0 top-0 z-10">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-6 py-6 lg:px-8" aria-label="Main navigation">
+    <a class="flex items-center gap-3 font-bold tracking-tight text-ink" href={home}>
+      <span class="grid size-9 place-items-center rounded-xl bg-brand text-lg text-white">N</span>
+      <span>Northstar Studio</span>
+    </a>
+    <div class="hidden items-center gap-8 text-sm font-medium text-slate md:flex">
+      {nav.map((item) => <a class="transition hover:text-brand" href={item.href}>{item.label}</a>)}
+    </div>
+    <a class="rounded-full bg-ink px-5 py-2.5 text-sm font-semibold text-white shadow-sm transition hover:bg-brand" href="#contact">Start a project</a>
+  </nav>
+</header>

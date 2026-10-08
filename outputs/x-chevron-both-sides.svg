@@ -1,0 +1,19 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Chevron X logo, mirrored</title>
+  <desc id="desc">A bold white X with three teal chevrons on each side pointing inward.</desc>
+  <rect width="800" height="800" rx="176" fill="#102A43"/>
+  <!-- Solid chevrons with vertically cut, parallel outer ends. -->
+  <g fill="#14B8A6">
+    <path d="M20 190H60L115 370L85 400L20 238V190ZM85 400L115 430L60 610H20V562L85 400Z"/>
+    <path d="M110 190H150L205 370L175 400L110 238V190ZM175 400L205 430L150 610H110V562L175 400Z"/>
+    <path d="M200 190H240L295 370L265 400L200 238V190ZM265 400L295 430L240 610H200V562L265 400Z"/>
+  </g>
+  <!-- A mirrored copy creates matching vertical cuts on the right. -->
+  <g fill="#14B8A6" transform="translate(800 0) scale(-1 1)">
+    <path d="M20 190H60L115 370L85 400L20 238V190ZM85 400L115 430L60 610H20V562L85 400Z"/>
+    <path d="M110 190H150L205 370L175 400L110 238V190ZM175 400L205 430L150 610H110V562L175 400Z"/>
+    <path d="M200 190H240L295 370L265 400L200 238V190ZM265 400L295 430L240 610H200V562L265 400Z"/>
+  </g>
+  <!-- The X uses the same top and bottom guides and vertical end cuts. -->
+  <path d="M290 190H340L400 320L460 190H510V258L440 400L510 542V610H460L400 480L340 610H290V542L360 400L290 258V190Z" fill="white"/>
+</svg>

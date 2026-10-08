@@ -1,0 +1,13 @@
+<svg width="800" height="800" viewBox="0 0 800 800" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Chevron X logo</title>
+  <desc id="desc">Three right-facing sideways chevrons on the left, flowing seamlessly into an X on the right.</desc>
+  <rect width="800" height="800" rx="176" fill="#102A43"/>
+  <!-- Three forward chevrons create a sense of momentum into the X. -->
+  <g fill="none" stroke="#14B8A6" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-width="58">
+    <path d="M82 210L252 400L82 590"/>
+    <path d="M178 210L348 400L178 590"/>
+    <path d="M274 210L444 400L274 590"/>
+  </g>
+  <!-- The final chevron overlaps the X at its leading edge to form one unified mark. -->
+  <path d="M420 210L730 590M420 590L730 210" fill="none" stroke="white" stroke-linecap="butt" stroke-width="76"/>
+</svg>
